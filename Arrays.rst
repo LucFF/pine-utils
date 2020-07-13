@@ -6,7 +6,13 @@ Arrays
 
 Arrays can be used to store multiple values in one data structure, rather than using multiple variables.
 Pine arrays are one-dimensional and can contain elements of type *float*, *color*, *int* and *bool*, always of *series* form.
-Elements within an array are referred to using an *index* which starts at 0 and extends to 
+Elements within an array are referred to using an *index*, which starts at 0 and extends to the number or elements in the array, minus one.
+
+Arrays in Pine can be sized dynamically, so the number of elements in the array can be modified within one iteration of the script on a bar,
+and vary across bars. Multiple arrays can be used by the same script. The size of arrays is limited by the runtime resources required for the script,
+which are evaluated dynamically, so there are no hard-limits.
+
+
 
 Starting with Pine v4, indicators and strategies can
 create *drawing objects* on the chart. Two types of
