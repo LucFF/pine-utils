@@ -5,7 +5,7 @@ Arrays
     :depth: 2
 
 Arrays can be used to store multiple values in one data structure. Think of them as a better way to handle cases where you would
-otherwise need a set of variables called: ``val00``, ``val01`` and ``val02``.
+otherwise need a set of variables named ``val00``, ``val01`` and ``val02``.
 Pine arrays are one-dimensional. They can contain elements of type *float*, *color*, *int* and *bool*, always of *series* form, 
 so the history-referencing operator can be used to refer to past instances of array elements the way we can with other Pine variables.
 
