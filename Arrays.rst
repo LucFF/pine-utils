@@ -14,12 +14,20 @@ Arrays in Pine can be sized dynamically, so the number of elements in the array 
 and vary across bars. Multiple arrays can be used by the same script. The size of arrays is limited by the runtime resources required for the script,
 which are evaluated dynamically, so there are no hard-limits.
 
+Arrays can be declared in a script's global scope, or in local scopes such as function and ``if`` block scopes.
+One major distinction between global scope arrays and variables in Pine is that global scope arrays can be modified from within local scopes.
+A Pine function, for example, can thus modify an array declared in the script's global scope. 
+
 .. note:: We will use "beginning" of an array to designate index 0, and "end" of an array to designate the array's element with the highest index value.
 
 
 
 Declaring arrays
 ----------------
+
+You can use two different methods to declare Pine arrays. The following syntax can be used to declare 
+
+The ``[]`` modifier is used has been added to the type names supported for arrays, so that you can declare arrays can be declared 
 ``array.new_float()``  
 ``array.new_color()``  
 ``array.new_int()``  
