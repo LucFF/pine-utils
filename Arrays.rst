@@ -14,6 +14,19 @@ and vary across bars. Multiple arrays can be used by the same script. The size o
 which are evaluated dynamically, so there are no hard-limits.
 
 
+Declaring arrays
+----------------
+
+
+Accessing and changing array values
+-----------------------------------
+
+
+Manipulating Arrays
+-------------------
+
+
+
 
 Starting with Pine v4, indicators and strategies can
 create *drawing objects* on the chart. Two types of
@@ -33,9 +46,6 @@ zig zag lines, labels containing dynamic text, etc.
 
 In contrast to indicator plots (plots are created with functions ``plot``, ``plotshape``, ``plotchar``),
 drawing objects can be created on historical bars as well as in the future, where no bars exist yet.
-
-Creating arrays
----------------
 
 Pine drawing objects are created with the `label.new <https://www.tradingview.com/pine-script-reference/v4/#fun_label{dot}new>`__
 and `line.new <https://www.tradingview.com/pine-script-reference/v4/#fun_line{dot}new>`__ functions.
