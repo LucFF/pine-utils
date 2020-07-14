@@ -14,7 +14,7 @@ Arrays in Pine can be sized dynamically, so the number of elements in the array 
 and vary across bars. Multiple arrays can be used by the same script. The size of arrays is limited by the runtime resources required for the script,
 which are evaluated dynamically, so there are no hard-limits.
 
-.. note:: We will use "beginning" of an array to designate index 0, and "end" of an array for the array's element with the highest index value.
+.. note:: We will use "beginning" of an array to designate index 0, and "end" of an array to designate the array's element with the highest index value.
 
 
 
