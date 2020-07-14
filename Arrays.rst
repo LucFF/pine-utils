@@ -18,9 +18,9 @@ which are evaluated dynamically, so there are no hard-limits.
 
 Declaring arrays
 ----------------
-``array.new_float()``
-``array.new_color()``
-``array.new_int()``
+``array.new_float()``  
+``array.new_color()``  
+``array.new_int()``  
 ``array.new_bool()``
 
 
