@@ -14,6 +14,8 @@ Arrays in Pine can be sized dynamically, so the number of elements in the array 
 and vary across bars. Multiple arrays can be used by the same script. The size of arrays is limited by the runtime resources required for the script,
 which are evaluated dynamically, so there are no hard-limits.
 
+We will use "beginning" of an array to designate index 0, and "end" of an array for the array's element with the highest index value.
+
 
 
 Declaring arrays
@@ -41,10 +43,14 @@ Inserting and removing array elements
 ``array.clear()``
 
 
-Using arrays as stacks
-^^^^^^^^^^^^^^^^^^^^^^
-``array.push()``
-``array.pop()``
+Using an array as stack
+^^^^^^^^^^^^^^^^^^^^^^^
+
+Stacks are LIFO (last in, first out) constructions. Stacks behave somewhat like a vertical pile of books to which books can only be added or removed one at a time,
+always from the top. Pine arrays can be used as a stack, in which case you will use the ``array.push()`` and ``array.push()`` functions to add and remove elements at the end of the array.
+
+``array.push(prices, close)`` will add a new element to the end of the ``prices`` array, increasing the array's size by one.
+``array.pop(prices, close)`` will remove the end element of the ``prices`` array, decreasing the array's size by one.
 
 
 
