@@ -25,12 +25,26 @@ Declaring arrays
 
 
 
-Accessing and changing array elements
--------------------------------------
+Reading and writing array values
+--------------------------------
 ``array.size()``
 ``array.get()``
 ``array.set()``
 ``array.fill()``
+
+
+
+Inserting and removing array elements
+-------------------------------------
+``array.insert()``
+``array.remove()``
+``array.clear()``
+
+
+Using arrays as stacks
+^^^^^^^^^^^^^^^^^^^^^^
+``array.push()``
+``array.pop()``
 
 
 
@@ -41,15 +55,13 @@ Calculations on arrays
 ``array.sum()``
 
 
-Inserting/Removing elements
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-
-
 Manipulating arrays
 -------------------
+``array.sort()``
 ``array.copy()``
 ``array.slice()``
+``array.concat()``
+
 
 
 
