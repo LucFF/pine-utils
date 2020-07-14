@@ -15,19 +15,28 @@ and vary across bars. Multiple arrays can be used by the same script. The size o
 which are evaluated dynamically, so there are no hard-limits.
 
 
+
 Declaring arrays
 ----------------
+
 
 
 Accessing and changing array elements
 -------------------------------------
 
 
+
 Manipulating Arrays
 -------------------
 
+
 Inserting/Removing elements
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Runtime errors
+--------------
 
 
 Starting with Pine v4, indicators and strategies can
