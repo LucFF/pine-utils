@@ -18,20 +18,38 @@ which are evaluated dynamically, so there are no hard-limits.
 
 Declaring arrays
 ----------------
+``array.new_float()``
+``array.new_color()``
+``array.new_int()``
+``array.new_bool()``
 
 
 
 Accessing and changing array elements
 -------------------------------------
+``array.size()``
+``array.get()``
+``array.set()``
+``array.fill()``
 
 
 
-Manipulating Arrays
+Calculations on arrays
 -------------------
+``array.min()``
+``array.max()``
+``array.sum()``
 
 
 Inserting/Removing elements
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Manipulating arrays
+-------------------
+``array.copy()``
+``array.slice()``
 
 
 
