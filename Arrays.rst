@@ -8,7 +8,8 @@ Arrays can be used to store multiple values in one data structure. Think of them
 otherwise need a set of variables named ``val00``, ``val01`` and ``val02``.
 Pine arrays are one-dimensional. All an array's elements are of the same type, which can be *float*, *color*, *int* and *bool*, always of *series* form. 
 As with other Pine variables, the history-referencing operator can be used to refer to past instances of array elements.
-Arrays are referenced using an array *id*, similar to label and line id's.
+Arrays are referenced using an array *id*, similar to label and line id's. Pine does not use an indexing operator to reference individual array elements;
+instead, functions like ``array.get()`` and ``array.set()`` are used to read and write values of array elements.
 
 Elements within an array are referred to using an *index*, which starts at 0 and extends to the number or elements in the array, minus one.
 Arrays in Pine can be sized dynamically, so the number of elements in the array can be modified within one iteration of the script on a bar,
