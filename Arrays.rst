@@ -6,8 +6,8 @@ Arrays
 
 
 
-Introduction to arrays
-----------------------
+Introduction
+------------
 
 Arrays can be used to store multiple values in one data structure. Think of them as a better way to handle cases where you would
 otherwise need a set of variables named ``val00``, ``val01`` and ``val02``.
