@@ -43,13 +43,14 @@ Inserting and removing array elements
 ``array.clear()``
 
 
-Using an array as stack
-^^^^^^^^^^^^^^^^^^^^^^^
+Using an array as a stack
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Stacks are LIFO (last in, first out) constructions. Stacks behave somewhat like a vertical pile of books to which books can only be added or removed one at a time,
 always from the top. Pine arrays can be used as a stack, in which case you will use the ``array.push()`` and ``array.push()`` functions to add and remove elements at the end of the array.
 
 ``array.push(prices, close)`` will add a new element to the end of the ``prices`` array, increasing the array's size by one.
+
 ``array.pop(prices, close)`` will remove the end element from the ``prices`` array, decreasing the array's size by one.
 
 
