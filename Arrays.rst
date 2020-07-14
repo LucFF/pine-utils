@@ -4,6 +4,11 @@ Arrays
 .. contents:: :local:
     :depth: 2
 
+
+
+Introduction to arrays
+----------------------
+
 Arrays can be used to store multiple values in one data structure. Think of them as a better way to handle cases where you would
 otherwise need a set of variables named ``val00``, ``val01`` and ``val02``.
 
@@ -30,7 +35,8 @@ Declaring arrays
 ----------------
 
 You can use two different methods to declare Pine arrays. The following syntax can be used to declare 
-
+    <type> <identifier> = <expression>
+    
 The ``[]`` modifier is used has been added to the type names supported for arrays, so that you can declare arrays can be declared 
 ``array.new_float()``  
 ``array.new_color()``  
