@@ -36,7 +36,6 @@ Declaring arrays
 ----------------
 
 The following syntax is used to declare arrays::
-
     <type>[] <identifier> = <expression>
 
 The ``[]`` modifier is appended to the type name when declaring arrays. However, since type-specific functions are used to create an array,
