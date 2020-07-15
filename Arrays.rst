@@ -52,7 +52,6 @@ but this time the array id returned by the ``array.new_float(0)`` function call 
 
 Similar array creation functions exist for the other types of array elements: ``array.new_color()``, ``array.new_int()`` and ``array.new_bool()``.
 
-
 You can also initialize array elements when declaring an array. The following declaration creates and array id named `prices`.
 The array is created with two elements, each initialized with the value of the ``close`` built-in variable::
 
