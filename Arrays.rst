@@ -12,7 +12,7 @@ Introduction
 Arrays can be used to store multiple values in one data structure. Think of them as a better way to handle cases where you would
 otherwise need a set of variables named ``val00``, ``val01`` and ``val02``.
 
-Pine arrays are one-dimensional. All elements of any given array are of the same type, which can be *float*, *color*, *int* or *bool*, always of *series* form. 
+Pine arrays are one-dimensional. All elements of any given array are of the same type, which can be *int*, *float*, *bool* or *color*, always of *series* form. 
 Arrays are referenced using an array *id*, similar to label and line id's. 
 As with other Pine variables, the history-referencing operator can be used to refer to past instances of an array when it is used with the array's id. 
 Pine does not use an indexing operator to reference individual array elements;
@@ -28,7 +28,8 @@ Arrays can be declared in a script's global scope, or in local scopes such as fu
 One major distinction between global scope arrays and variables in Pine is that global scope arrays can be modified from within local scopes.
 A Pine function, for example, can thus modify an array declared in the script's global scope. 
 
-.. note:: We will use "beginning" of an array to designate index 0, and "end" of an array to designate the array's element with the highest index value.
+.. note:: We will use "beginning" of an array to designate index 0, and "end" of an array to designate the array's element with the highest index value. 
+We will also extend the meaning of *array* to include array *id's*, for the sake of brevity.
 
 
 
@@ -50,7 +51,7 @@ but this time the array id returned by the ``array.new_float(0)`` function call 
 
     prices = array.new_float(0)
 
-Similar array creation functions exist for the other types of array elements: ``array.new_color()``, ``array.new_int()`` and ``array.new_bool()``.
+Similar array creation functions exist for the other types of array elements: ``array.new_int()``, ``array.new_bool()`` and ``array.new_color()``.
 
 You can also initialize array elements when declaring an array. The following declaration creates and array id named `prices`.
 The array is created with two elements, each initialized with the value of the ``close`` built-in variable::
