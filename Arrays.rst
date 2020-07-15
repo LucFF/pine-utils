@@ -36,12 +36,14 @@ Declaring arrays
 ----------------
 
 The following syntax is used to declare arrays::
+
     <type>[] <identifier> = <expression>
 
 The ``[]`` modifier is appended to the type name when declaring arrays. However, since type-specific functions are used to create an array,
 the `<type>[]` part of the declaration is redundant, except if you initialize the array id to `na`, as in::
 
     float[] prices = na
+
 which declares an empty array with *float* values.
 
 This declaration also creates an array containing zero *float* elements, but this time an array id is created::
