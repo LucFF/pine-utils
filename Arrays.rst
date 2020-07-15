@@ -84,7 +84,7 @@ always from the top. Pine arrays can be used as a stack, in which case you will 
 
 ``array.push(prices, close)`` will add a new element to the end of the ``prices`` array, increasing the array's size by one.
 
-``array.pop(prices, close)`` will remove the end element from the ``prices`` array, decreasing the array's size by one.
+``array.pop(prices)`` will remove the end element from the ``prices`` array, return its value and decrease the array's size by one.
 
 [[Need a code example]]::
 
