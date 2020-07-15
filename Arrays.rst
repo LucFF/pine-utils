@@ -40,7 +40,7 @@ The following syntax is used to declare arrays::
     <type>[] <identifier> = <expression>
 
 The ``[]`` modifier is appended to the type name when declaring arrays. However, since type-specific functions are used to create an array,
-the ``<type>[]`` part of the declaration is redundant, except if you initialize the array id to `na`, as in this example, 
+the ``<type>[]`` part of the declaration is redundant, except if you initialize the array id to ``na``, as in this example, 
 which declares an empty array of *float* values with an array id named ``prices``::
 
     float[] prices = na
