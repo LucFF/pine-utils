@@ -40,25 +40,23 @@ The following syntax is used to declare arrays::
     <type>[] <identifier> = <expression>
 
 The ``[]`` modifier is appended to the type name when declaring arrays. However, since type-specific functions are used to create an array,
-the `<type>[]` part of the declaration is redundant, except if you initialize the array id to `na`, as in this example, 
+the ``<type>[]`` part of the declaration is redundant, except if you initialize the array id to `na`, as in this example, 
 which declares an empty array of *float* values with an array id named ``prices``::
 
     float[] prices = na
 
-This declaration also creates an array containing zero *float* elements, but this time an array id is created::
+This declaration also creates an array containing zero *float* elements, 
+but this time the array id returned by the ``array.new_float(0)`` function call is assigned to ``prices``::
 
     prices = array.new_float(0)
+
+Similar array creation functions exist for the other types of array elements: ``array.new_color()``, ``array.new_int()`` and ``array.new_bool()``.
+
 
 You can also initialize array elements when declaring an array. The following declaration creates and array id named `prices`.
 The array is created with two elements, each initialized with the value of the ``close`` built-in variable::
 
     prices = array.new_float(2, close)
-
-
-``array.new_float()``  
-``array.new_color()``  
-``array.new_int()``  
-``array.new_bool()``
 
 
 
