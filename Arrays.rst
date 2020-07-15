@@ -109,6 +109,9 @@ Runtime errors
 --------------
 
 
+
+═══════════════════════ JUNK ═════════════════════════
+
 Starting with Pine v4, indicators and strategies can
 create *drawing objects* on the chart. Two types of
 drawings are currently supported: *label* and *line*.
