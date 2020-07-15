@@ -86,7 +86,7 @@ always from the top. Pine arrays can be used as a stack, in which case you will 
 
 ``array.pop(prices, close)`` will remove the end element from the ``prices`` array, decreasing the array's size by one.
 
-Need a code example::
+[[Need a code example]]::
 
     code
 
